@@ -1,0 +1,1 @@
+import React from 'react'; const App = () => <div>ProfitPath is live.</div>; export default App;
