@@ -1,8 +1,1 @@
-import Dashboard from "./pages/Dashboard";
-
-function App() {
-  return <Dashboard />;
-}
-
-export default App;
-export default App;
+import React from 'react'; const App = () => <div>ProfitPath is live.</div>; export default App;
