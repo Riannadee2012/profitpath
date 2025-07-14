@@ -1,12 +1,21 @@
+import * as React from "react";
+
 export function Tabs({ children }) {
-  return <div>{children}</div>;
+  return <div className="tabs">{children}</div>;
 }
+
 export function TabsList({ children }) {
-  return <div>{children}</div>;
+  return <div className="tabs-list">{children}</div>;
 }
-export function TabsTrigger({ children }) {
-  return <button>{children}</button>;
+
+export function TabsTrigger({ children, onClick }) {
+  return (
+    <button className="tabs-trigger" onClick={onClick}>
+      {children}
+    </button>
+  );
 }
+
 export function TabsContent({ children }) {
-  return <div>{children}</div>;
+  return <div className="tabs-content">{children}</div>;
 }
